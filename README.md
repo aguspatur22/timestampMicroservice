@@ -1,3 +1,8 @@
-# Timestamp Microservice
+# Time API Project
 
-This is the boilerplate code for the Timestamp Microservice project. Instructions for building your project can be found at https://www.freecodecamp.org/learn/apis-and-microservices/apis-and-microservices-projects/timestamp-microservice
+This project is a simple Node.js application using Express to serve an API that returns the current time or the time corresponding to a provided date in both UNIX timestamp and UTC format.
+
+## Features
+
+- **Current Time**: Accessing the `/api` endpoint returns the current time.
+- **Specific Time**: Providing a specific date in the URL as `/api/:date` returns the time for that date.
